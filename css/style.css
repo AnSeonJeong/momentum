@@ -1,0 +1,133 @@
+body {
+    color: #fff;
+    box-sizing: border-box;
+
+}
+
+input
+,input:focus {
+    list-style: none;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+input::placeholder {
+    color: white;
+    text-align: center;
+}
+
+button, button:focus {
+    border: none;
+    background: none;
+    color: red;
+}
+
+#clock {
+    font-size: 7em;
+    text-align: center;
+    position: relative;
+    bottom: -270px;
+}
+
+#login-form input:first-child {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 2px solid white;
+    font-size: 2em;
+    margin-bottom: 0.7em;
+    position: relative;
+    bottom: -200px;
+}
+
+#login-form input:last-child {
+    display: none;
+}    
+
+.logout {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: lightgray;
+    font-size: 1em;
+}
+
+#greeting {
+    font-size: 3em;
+    text-align: center;
+    position: relative;
+    bottom: -200px;
+}
+
+#todo-form input {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.5em;
+    position: relative;
+    bottom: -200px;
+}
+
+#todo-list {
+    margin: 0 20%;
+    padding-left: 440px;
+    font-size: 1.3em;
+    position: relative;
+    bottom: -200px;
+}
+
+#todo-list li {
+    text-align: center;
+    text-align: left;
+    list-style: none;
+    padding-top: 5px;
+}
+
+#quote {
+    text-align: center;
+    font-size: 1.2em;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+
+.font-color {
+    color: black;
+}
+
+#quote span {
+    display: block;
+}
+
+#weather span img {
+    position: absolute;
+    top: 30px;
+    right: 250px;
+}
+
+#weather span:last-child {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.hidden {
+    display: none;
+}
+
+.bg-image {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
